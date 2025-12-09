@@ -6,7 +6,8 @@
  *
  * Description:
  * This function checks if a given node in a binary tree is a leaf.
- * A node is considered a leaf if it has no children (both left and right are NULL).
+ * A node is considered a leaf if it has
+ * no children (both left and right are NULL).
  *
  * Return:
  * 1 if the node is a leaf, 0 otherwise.
@@ -20,6 +21,6 @@ int binary_tree_is_leaf(const binary_tree_t *node)
 	if (node->left == NULL && node->right == NULL)
 	return (1);
 
-	else 
+	else
 	return (0);
 }
