@@ -3,16 +3,16 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_is_full - Vérifie si un arbre binaire est plein
- * @tree: Pointeur vers la racine de l'arbre à vérifier
+ * binary_tree_is_full - Checks if a binary tree is full
+ * @tree: Pointer to the root of the tree to check
  *
  * Description:
- * Un arbre binaire est considéré comme plein lorsqu’aucun nœud
- * ne possède un seul enfant : chaque nœud doit avoir soit 0,
- * soit 2 enfants. La fonction utilise une récursion pour vérifier
- * cette propriété sur l’ensemble de l’arbre.
+ * A binary tree is considered full when no node
+ * has only one child: each node must have either 0
+ * or 2 children. The function uses recursion to verify
+ * this property throughout the entire tree.
  *
- * Return: 1 si l'arbre est plein, 0 sinon ou si tree est NULL.
+ * Return: 1 if the tree is full, 0 otherwise or if tree is NULL.
  */
 
 int binary_tree_is_full(const binary_tree_t *tree)
